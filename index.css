@@ -35,6 +35,7 @@ color: whitesmoke;
 
 }
 
+
 .parent {
   width: 400px;
   height: 300px;
@@ -178,4 +179,24 @@ color: whitesmoke;
   padding-top: 30px;
   position: absolute;
   right: 700px;
+}
+
+
+#phoneIcon {
+  height:80px;
+  width: 80px;
+  padding-top: 30px;
+  position: absolute;
+  right: 600px;
+  bottom: 200px;
+}
+
+#mailIcon {
+  height:110px;
+  width: 90px;
+  padding-top: 30px;
+  position: absolute;
+  right: 500px;
+  bottom: 300px;
+
 }

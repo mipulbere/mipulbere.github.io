@@ -25,8 +25,9 @@
 
   <div id="fullpage" class= "fullpage-wrapper">
     <div class="section active">
-      <span class="circle"></span>
-      <h1 class="header">Hi, I'm Mirela</h1>
+
+      <img src="me.jpg" class="circle"></img>
+      <h1 class="header">Hey 👋, I'm Mirela</h1>
       <h1 class="subHeader">Software Developer</h1>
     </div>
 
@@ -35,7 +36,7 @@
         <p class="largeTitle">About Me</p>
         <div class ="myIntro">
           <p class="aboutMe">I am a 2nd year student at Caleton University, passionate about software and web development. I have been involved in a few personal projects, ranging from websites for businesses to interactive web applications, working on both the back-end and the front-end. I consider myself a person with hunger for knowledge and attentive to details.</p>
-          <p>Checkout my resume and my GitHub for a look at some of the projects I've done</p>
+          <p>Checkout my LinkedIn and my GitHub for a look at some of the projects I've done</p>
         </div>
 
         <div class="buttons">
@@ -197,7 +198,7 @@
                     <i class="fas fa-check"></i>
                   </span>
                   <span>
-                    Jirab
+                    Jira
                   </span>
                 </li>
                 <li class="list-item">
@@ -228,22 +229,32 @@
           </div>
         </div>
 
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="intro">
+
+        <p class="largeTitle">Current Projects</p>
+
         <div class="projectContainer">
-          <p class ="mediumTitle">Current Projects:</p>
-            <a href="https://github.com/torsden/ottawastreetart.com"><p class="link"> Ottawa Street Art</p></a>
-          <div class="currentProject">
-          </div>
+            <p class="projectTitle"> Ottawa Street Art 👩‍🎨 </p></a>
+            <p>Developing an interactive website using Jekyll, HTML, CSS, JavaScript to display the various street art and architecture that can be found throughout the streets of Ottawa.</p>
+            <p>Exploring integrations with Instagram, Google Maps API and Google Firebase</p>
+            <a href="https://github.com/torsden/ottawastreetart.com"><p class="projectLink">https://github.com/torsden/ottawastreetart.com</p></a>
         </div>
 
-
-
+        <div class="projectContainer">
+            <p class="projectTitle">Toute en Santé 👩‍⚕️ </p></a>
+            <p>In the process of designing and developing a website for a client’s health and wellness business using HTML, CSS, Javascipt libraries and any other technologies needed to deliver a delightful website.</p>
+        </div>
 
       </div>
     </div>
 
     <div class="section">
       <div class="intro">
-          <p class ="largeTitle">Let's get in touch!</p>
+          <p class ="contactTitle">Let's get in touch!</p>
           <div class="buttons">
             <a class="contactButton" href="mailto:mipulbere@gmail.com">
               <span class="icon">
@@ -261,7 +272,7 @@
   <script type="text/javascript">
     $(document).ready(function() {
           $('#fullpage').fullpage({
-              sectionsColor: ['black', 'whitesmoke', 'black', 'whitesmoke'],
+              sectionsColor: ['black', 'whitesmoke', 'black', 'whitesmoke', 'black'],
               anchors: ['main', 'about', 'skills', 'currentProjects', 'contact'],
               menu: '#menu',
               css3: true,

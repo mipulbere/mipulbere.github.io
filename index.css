@@ -175,17 +175,24 @@ color: whitesmoke;
   margin-left: 50px;
   margin-right: 50px;
 }
-
+.contactTitle{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px;
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 .contactButton{
   margin: auto;
-  background-color: black;
+  background-color: white;
   border-color: transparent;
   color: white;
   font-size: 1.5rem;
   -moz-appearance: none;
   -webkit-appearance: none;
   align-items: center;
-  border: 1px solid transparent;
+  border: 1px solid white;
   border-radius: 3px;
   box-shadow: none;
   display: inline-flex;
@@ -204,9 +211,8 @@ color: whitesmoke;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: black;
-  border-color: #dbdbdb;
-  color: white;
+  background-color: white;
+  color: black;
   cursor: pointer;
   justify-content: center;
   padding-left: .75em;
@@ -231,12 +237,28 @@ color: whitesmoke;
 }
 
 .projectContainer{
-  border: solid thin whitesmoke;
+  border: solid thin black;
   padding: 10px;
-  text-align: center;
-  color: whitesmoke;
-  margin-left: 35%;
-  margin-right: 35%;
+  text-align: left;
+  color: black;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 40px;
+}
+
+.projectTitle{
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.projectLink{
+  text-align: left;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Oswald', sans-serif;
 }
 
 .envelope{

@@ -66,7 +66,7 @@ color: whitesmoke;
     border-radius: 3px;
     box-shadow: none;
     display: inline-flex;
-    font-size: 3rem;
+    font-size: 2.5rem;
     height: 2.25em;
     justify-content: flex-start;
     line-height: 1.5;
@@ -107,8 +107,8 @@ color: whitesmoke;
 
 .myIntro {
   text-align: center;
-  font-family: 'Oswald', sans-serif;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
   color: black;
   padding-top: 20px;
   margin-left: 50px;
@@ -240,6 +240,7 @@ color: whitesmoke;
   border: solid thin black;
   padding: 10px;
   text-align: left;
+  font-family: 'Roboto', sans-serif;
   color: black;
   margin-left: 10%;
   margin-right: 10%;
